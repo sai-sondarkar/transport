@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="auth.SignUpActivity">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/bk" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:background="#ffffff"/>
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--android:elevation="10dp"-->
+        <!--android:theme="@style/ThemeOverlay.AppCompat.Dark" >-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="30sp"-->
+            <!--android:id="@+id/tx"-->
+            <!--android:textColor="@color/colorAccent"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Sign up "/>-->
+    <!--</android.support.v7.widget.Toolbar>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#99ffffff"
+        android:layout_below="@+id/logo"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:elevation="20dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-regular"
+            android:id="@+id/tx"
+            android:paddingLeft="22dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:text="Create new account"
+            android:alpha="0.5"
+            android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:id="@+id/ed1"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email ID" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_below="@+id/ed1"
+        android:id="@+id/ed3"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name" />
+
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_below="@+id/ed3"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password" />
+
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:alpha="0.5"
+        android:text="By signing you agree to our term and conditions."
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/logo"
+        android:elevation="10dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo"
+         />
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/id_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="onClick"-->
+        <!--android:src="@drawable/ic_next"-->
+        <!--android:layout_marginTop="58dp"-->
+        <!--android:layout_below="@+id/linearLayout"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-bold"
+        android:onClick="onClick"
+        android:background="@drawable/roundbutton"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/linearLayout"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signin"
+        android:id="@id/tx"
+        android:gravity="center"
+        android:fontFamily="sans-serif-bold"
+        android:textSize="20sp"
+        android:onClick="signup"
+        android:padding="20dp"
+        android:layout_alignBottom="@+id/logo"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Transport</string>
+    <string name="title_login">welcome back Dear</string>
+    <string name="title_signup">OnBoarding you few seconds</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Don\'t Have An Account ?</string>
+    <string name="forgot">Forget Password</string>
+    <string name="title_activity_aware_spot_map">Map</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Transport!</string>
+    <string name="slide_1_desc">Platform for Smart Public Transport</string>
+
+    <string name="slide_2_title">Search!</string>
+    <string name="slide_2_desc">Find your Trip get Notified when it is about to arrive your place</string>
+
+    <string name="slide_3_title">Create!</string>
+    <string name="slide_3_desc">Create your own Trip and Share Trip so others dont waste time waiting for transport</string>
+
+    <string name="slide_4_title">Drive!</string>
+    <string name="slide_4_desc">Drive Panel for the Created Trips, Notify others</string>
+
+    <string name="slide_5_title">Aware Spot</string>
+    <string name="slide_5_desc">Aware Spots For the People by the People, Show the UnSafe Place to Traveling Womens </string>
+
+</resources>

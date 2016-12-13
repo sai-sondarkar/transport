@@ -1,0 +1,127 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/bk" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:background="#ffffff"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="10dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:id="@+id/tx"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:text="Create Trip"/>
+        </android.support.v7.widget.Toolbar>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_editText"
+            android:padding="20dp"
+            android:maxLines="1"
+            android:minLines="1"
+            android:imeOptions="actionDone"
+            android:ems="10"
+            android:background="@drawable/bg_edittext"
+            android:gravity="center"
+            android:hint="Enter ID to stream"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@+id/id_button" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/id_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/white"
+            app:borderWidth="0dp"
+            android:src="@drawable/ic_next_white"
+            android:layout_marginEnd="10dp"
+            android:layout_alignTop="@+id/id_editText"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/id_editText"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="#99ffffff">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Created Trips"
+                android:padding="5dp"
+                android:id="@+id/tx1"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:alpha="0.5"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@android:color/transparent"
+                    android:padding="5dp"
+                    android:visibility="gone"
+                    android:id="@+id/listview"
+                    android:scrollbars="none"></ListView>
+                <ImageView
+                    android:id="@+id/person"
+                    android:layout_width="150dp"
+                    android:src="@drawable/drive"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="150dp" />
+                <TextView
+                    android:id="@+id/persontext"
+                    android:layout_below="@+id/person"
+                    android:layout_width="wrap_content"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content"
+                    android:text="You dont have any Created trips"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

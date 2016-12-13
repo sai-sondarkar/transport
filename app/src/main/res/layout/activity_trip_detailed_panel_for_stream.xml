@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="in.techmafiya.transport.Activities.TripDetailedPanelForStream">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="10dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:id="@+id/tx"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:text="Trips Details"/>
+    </android.support.v7.widget.Toolbar>
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/bk" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:background="#ffffff"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="match_parent">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:id="@+id/listview"
+            android:scrollbars="none"></ListView>
+        <ImageView
+            android:id="@+id/person"
+            android:layout_width="150dp"
+            android:src="@drawable/create"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="150dp" />
+        <TextView
+            android:id="@+id/persontext"
+            android:layout_below="@+id/person"
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:text="We are finding the Trip, Few seconds"/>
+    </RelativeLayout>
+</RelativeLayout>
