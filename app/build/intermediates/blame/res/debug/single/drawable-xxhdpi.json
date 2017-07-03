@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_start.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-xxhdpi\\ic_start.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logout.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-xxhdpi\\ic_logout.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_next_white.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-xxhdpi\\ic_next_white.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_add.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_done.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-xxhdpi\\ic_done.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_back.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-xxhdpi\\ic_back.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_refresh.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-xxhdpi\\ic_refresh.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_report.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-xxhdpi\\ic_report.png"
+    }
+]

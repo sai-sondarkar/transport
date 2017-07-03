@@ -1,0 +1,9 @@
+int attr randomness 0x7f010003
+int attr sceneLength 0x7f010002
+int attr speed 0x7f010000
+int attr src 0x7f010001
+int[] styleable ParallaxView { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003 }
+int styleable ParallaxView_randomness 3
+int styleable ParallaxView_sceneLength 2
+int styleable ParallaxView_speed 0
+int styleable ParallaxView_src 1

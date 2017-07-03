@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="merlin-0.8.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.novoda/merlin/0.8.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.novoda/merlin/0.8.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.novoda/merlin/0.8.0/d68909e1e626eb89e35615f390e6090bc620e984/merlin-0.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

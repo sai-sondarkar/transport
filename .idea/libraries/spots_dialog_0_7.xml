@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="spots-dialog-0.7">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.d-max/spots-dialog/0.7/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.d-max/spots-dialog/0.7/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.d-max/spots-dialog/0.7/ef4e3860bef9c4cdd850c0a9f2020dd270c63598/spots-dialog-0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

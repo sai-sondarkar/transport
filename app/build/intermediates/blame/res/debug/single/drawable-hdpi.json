@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_report.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-hdpi\\ic_report.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_add.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-hdpi\\ic_add.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_next_white.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-hdpi\\ic_next_white.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_start.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-hdpi\\ic_start.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_logout.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-hdpi\\ic_logout.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_done.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-hdpi\\ic_done.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_back.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-hdpi\\ic_back.png"
+    },
+    {
+        "merged": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_refresh.png",
+        "source": "D:\\ADUU\\AndroidStudioProjects\\Transport\\app\\src\\main\\res\\drawable-hdpi\\ic_refresh.png"
+    }
+]

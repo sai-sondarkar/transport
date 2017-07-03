@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="spots_dialog_color">@android:color/holo_blue_dark</color>
+    <declare-styleable name="Dialog"><attr format="reference" name="DialogTitleAppearance"/><attr format="reference|string" name="DialogTitleText"/><attr format="reference|color" name="DialogSpotColor"/><attr format="integer" name="DialogSpotCount"/></declare-styleable>
+    <dimen name="progress_margin">24dp</dimen>
+    <dimen name="progress_width">250dp</dimen>
+    <dimen name="spot_size">6dp</dimen>
+    <dimen name="title_margin">10dp</dimen>
+    <style name="SpotsDialogDefault" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Loading…</item>
+        <item name="DialogSpotCount">5</item>
+    </style>
+</resources>

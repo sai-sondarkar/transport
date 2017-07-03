@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ParallaxView"><attr format="dimension" name="speed"/><attr format="reference" name="src"/><attr format="integer" name="sceneLength"/><attr format="reference" name="randomness"/></declare-styleable>
+</resources>
