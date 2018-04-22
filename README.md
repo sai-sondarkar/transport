@@ -1,16 +1,5 @@
 # transport
-Transport app for real time tracking of personal vehicles using realtime Database and Realtime GPS 
-
-Using API and Platforms 
-
-Firebase DataBase 
-Firebase Auth
-Firebase Cloud Notification 
-Firebase Analytics 
-Google Maps API
-Digital Ocean for Server
-Node.js for API 
-Mango DB for API Storage 
+Transport platform is for real time tracking of personal vehicles/ College Bus/ Industry Vehicle/ Car pools & Truck Transportation system using Firebase Database, Auth, Analytics, Crash Reporting and show vehicle in Google Maps API, our custom api for AwareSpot is hosted at Digital Ocean for Server where we are using Node.js & MongoDB for API. Data from Bus can be transferred using Raspberry Pi with running python script on it.
 
 ![Image 1](https://github.com/sai-sondarkar/transport/blob/master/Screenshot_20161211-231238.png)
 ![Image 3](https://github.com/sai-sondarkar/transport/blob/master/Screenshot_20161211-231325.png)
